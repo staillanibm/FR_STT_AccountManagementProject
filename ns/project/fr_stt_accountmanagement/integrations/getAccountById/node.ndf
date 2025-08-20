@@ -83,7 +83,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1755673500881</value>
+    <value name="lastModifiedDate">1755673575809</value>
     <value name="displayName">getAccountById</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -134,12 +134,16 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
