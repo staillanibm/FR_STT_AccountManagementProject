@@ -156,6 +156,9 @@
 
 <MAPCOPY FROM="/account_in;4;0;project.fr_stt_accountmanagement.documenttypes:Account/lastUpdateDateTime;1;0" TO="/account_out;4;0;project.fr_stt_accountmanagement.documenttypes:Account/lastUpdateDateTime;1;0">
 </MAPCOPY>
+
+<MAPCOPY FROM="/account_in;4;0;project.fr_stt_accountmanagement.documenttypes:Account/rating;1;0" TO="/account_out;4;0;project.fr_stt_accountmanagement.documenttypes:Account/rating;1;0">
+</MAPCOPY>
 </MAP>
 
 <INVOKE NAME="INTEGRATIONS" SERVICE="project.fr_stt_accountmanagement.integrations:getAccountById">
