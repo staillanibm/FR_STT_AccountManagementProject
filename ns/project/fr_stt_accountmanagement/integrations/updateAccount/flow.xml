@@ -696,13 +696,13 @@
 
   <!-- nodes -->
 
-<EXIT FROM="$flow" SIGNAL="FAILURE" DISABLED="true" FAILURE-MESSAGE="Account not found">
+<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Account not found">
   <COMMENT></COMMENT>
 </EXIT>
 </SEQUENCE>
 </BRANCH>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline" DISABLED="true">
+<INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
