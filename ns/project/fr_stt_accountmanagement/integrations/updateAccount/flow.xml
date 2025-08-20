@@ -686,6 +686,22 @@
 </MAP>
 </INVOKE>
 
+<BRANCH NAME="IF" LABELEXPRESSIONS="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE NAME="((%/updateAccountOutput/nbUpdated%==&#39;0&#39;))" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Account not found">
+  <COMMENT></COMMENT>
+</EXIT>
+</SEQUENCE>
+</BRANCH>
+
 <INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline">
   <COMMENT></COMMENT>
 </INVOKE>
