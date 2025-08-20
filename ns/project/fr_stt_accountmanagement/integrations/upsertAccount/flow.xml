@@ -246,7 +246,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="((%/found%==&#39;&#39;true&#39;&#39;))" EXIT-ON="FAILURE">
+<SEQUENCE NAME="((%/found%==&#39;true&#39;))" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
