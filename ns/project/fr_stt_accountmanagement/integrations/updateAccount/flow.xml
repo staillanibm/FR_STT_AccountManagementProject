@@ -696,7 +696,7 @@
 
   <!-- nodes -->
 
-<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Account not found">
+<EXIT FROM="$flow" SIGNAL="FAILURE" DISABLED="true" FAILURE-MESSAGE="Account not found">
   <COMMENT></COMMENT>
 </EXIT>
 </SEQUENCE>
