@@ -947,4 +947,8 @@
 </MAP>
 </SEQUENCE>
 </BRANCH>
+
+<INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
