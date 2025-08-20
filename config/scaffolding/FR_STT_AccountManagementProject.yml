@@ -36,6 +36,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: pub.flow:clearPipeline
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 configurationVariables:
   ? artConnection.FR_STT_AccountManagementProject.project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.contabo_sttlab_eu.connectionManagerSettings.minimumPoolSize
   : "1"
