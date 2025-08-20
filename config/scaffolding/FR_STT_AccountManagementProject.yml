@@ -28,6 +28,14 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:selectAccountById
+  packages:
+  - name: FR_STT_AccountManagementProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:updateAccount
   packages:
   - name: FR_STT_AccountManagementProject
