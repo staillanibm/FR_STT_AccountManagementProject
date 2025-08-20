@@ -283,7 +283,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:insertAccount" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:insertAccount" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
