@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/staillanibm
   gitUsername: staillanibm
   gitBranch: main
+services:
+- serviceName: project.fr_stt_accountmanagement.integrations:createAccount
+  packages:
+  - name: FR_STT_AccountManagementProject
+    version: "1.0"
