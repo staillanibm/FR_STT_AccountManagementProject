@@ -68,6 +68,25 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
         </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">account_out</value>
+          <value name="field_type">recref</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="modifiable">true</value>
+          <value name="rec_ref">project.fr_stt_accountmanagement.documenttypes:Account</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -86,7 +105,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1755676193161</value>
+    <value name="lastModifiedDate">1755690845836</value>
     <value name="displayName">upsertAccount</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -140,7 +159,7 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">1.0.2</value>
+        <value name="nodePathForDebug">1.0.0</value>
       </record>
       <record name="/1/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -159,7 +178,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">1.0.3</value>
+        <value name="nodePathForDebug">1.0.1</value>
       </record>
       <null name="/1/0/1/0"/>
       <record name="/1/1" javaclass="com.wm.util.Values">
@@ -220,15 +239,34 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+      </record>
+      <null name="/2/0"/>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">8</number>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">8</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
         <value name="nodePathForDebug">2</value>
       </record>
-      <record name="/2/0" javaclass="com.wm.util.Values">
+      <record name="/3/0" javaclass="com.wm.util.Values">
       </record>
-      <record name="/2/1" javaclass="com.wm.util.Values">
+      <record name="/3/1" javaclass="com.wm.util.Values">
       </record>
-      <record name="/2/2" javaclass="com.wm.util.Values">
+      <record name="/3/2" javaclass="com.wm.util.Values">
       </record>
-      <record name="/2/3" javaclass="com.wm.util.Values">
+      <record name="/3/3" javaclass="com.wm.util.Values">
       </record>
     </record>
   </record>
