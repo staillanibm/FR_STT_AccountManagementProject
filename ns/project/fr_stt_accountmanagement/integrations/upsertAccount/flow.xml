@@ -101,7 +101,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="((%/account4%!=$null))" EXIT-ON="FAILURE">
+<SEQUENCE NAME="((%/account/id%!=$null))" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
