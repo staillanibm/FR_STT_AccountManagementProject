@@ -500,7 +500,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="INTEGRATIONS" SERVICE="project.fr_stt_accountmanagement.integrations:createAccount">
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.fr_stt_accountmanagement.integrations:createAccount" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
