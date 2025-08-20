@@ -86,7 +86,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1755675292084</value>
+    <value name="lastModifiedDate">1755675366499</value>
     <value name="displayName">upsertAccount</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -146,6 +146,26 @@
         <null name="outputMapSet"/>
       </record>
       <record name="/1/0/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">4</number>
+        <value name="nodePathNew">1.0.1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/1/0/2" javaclass="com.wm.util.Values">
         <value name="name">updateAccount</value>
         <value name="displayName">updateAccount</value>
         <value name="itemType">INTEGRATIONS</value>
@@ -156,7 +176,7 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
       </record>
-      <record name="/1/0/2" javaclass="com.wm.util.Values">
+      <record name="/1/0/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">4</number>
@@ -174,7 +194,7 @@
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
-      <null name="/1/0/2/0"/>
+      <null name="/1/0/3/0"/>
       <record name="/1/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
