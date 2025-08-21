@@ -1,0 +1,66 @@
+openapi: 3.0.3
+info:
+  title: SalesforceWebhooks
+  version: 1.0.0
+  description: |
+    Webhook API receiving object change notifications from Salesforce.
+servers:
+  - url: https://api.example.com
+tags:
+  - name: Accounts webhooks
+    description: Endpoints used by Salesforce to deliver events.
+paths:
+  /accounts:
+    post:
+      tags: [Accounts]
+      summary: Receive an Account creation or change webhook
+      description: Accepts a notification containing the Account **id**.
+      operationId: postAccountWebhook
+      requestBody:
+        required: true
+        description: Webhook payload for an Account change.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AccountChangeEvent'
+            examples:
+              sample:
+                value:
+                  id: "0015g00000ABCDeAA1"
+      responses:
+        '200':
+          description: Successfully processed the webhook.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ack'
+              examples:
+                ok:
+                  value:
+                    status: ok
+        '400':
+          description: Bad request — invalid body or missing required fields.
+        '401':
+          description: Unauthorized — authentication is missing or invalid.
+        '403':
+          description: Forbidden — authenticated but not allowed to call this endpoint.
+        '500':
+          description: Internal server error — unexpected processing failure.
+components:
+  schemas:
+    AccountChangeEvent:
+      type: object
+      additionalProperties: false
+      required: [id]
+      properties:
+        id:
+          type: string
+          description: Salesforce Account Id (e.g., 18-character case-safe Id).
+    Ack:
+      type: object
+      additionalProperties: false
+      properties:
+        status:
+          type: string
+          enum: [ok]
+          description: Processing result indicator.
