@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1755672304233</value>
+    <value name="lastModifiedDate">1756830823576</value>
     <value name="displayName">createAccount</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -92,6 +92,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -103,6 +104,7 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0.0</value>
       </record>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -114,6 +116,7 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0.1</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -141,12 +144,12 @@
         <value name="version">1.0</value>
         <double name="rank" type="Double">2.0999999999999996</double>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">contabo_sttlab_eu</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionName">accountDB</value>
+          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:contabo_sttlab_eu</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionNSName">project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:accountDB</value>
+        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
@@ -167,6 +170,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -181,6 +185,8 @@
           <value name="serviceName">pub.flow:clearPipeline</value>
           <value name="transformerSupport">false</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
       </record>
     </record>
   </record>
