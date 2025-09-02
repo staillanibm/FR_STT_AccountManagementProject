@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1756830731836</value>
+    <value name="lastModifiedDate">1756832862912</value>
     <value name="displayName">updateAccount</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -104,7 +104,6 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">0.0</value>
       </record>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -116,7 +115,6 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">0.1</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
