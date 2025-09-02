@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1755676648426</value>
+    <value name="lastModifiedDate">1756830731836</value>
     <value name="displayName">updateAccount</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -143,12 +143,12 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">contabo_sttlab_eu</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionName">accountDB</value>
+          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:contabo_sttlab_eu</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionNSName">project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:accountDB</value>
+        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
@@ -187,14 +187,17 @@
         <value name="nodePathNew">2</value>
         <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">3</number>
+        <value name="nodePathForDebug">2</value>
       </record>
       <record name="/2/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
+        <value name="nodePathForDebug">2.0</value>
       </record>
       <record name="/2/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">EXIT</value>
+        <value name="nodePathForDebug">2.0.0</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -210,7 +213,7 @@
           <value name="transformerSupport">false</value>
         </record>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">2</value>
+        <value name="nodePathForDebug">3</value>
       </record>
     </record>
   </record>
