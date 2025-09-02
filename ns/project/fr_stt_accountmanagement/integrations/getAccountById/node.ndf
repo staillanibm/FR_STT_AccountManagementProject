@@ -100,7 +100,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
-    <value name="lastModifiedDate">1755675669710</value>
+    <value name="lastModifiedDate">1756830774928</value>
     <value name="displayName">getAccountById</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -135,12 +135,12 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">contabo_sttlab_eu</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionName">accountDB</value>
+          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:contabo_sttlab_eu</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionNSName">project.fr_stt_accountmanagement.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:accountDB</value>
+        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
@@ -288,6 +288,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">1.0.2</value>
       </record>
       <null name="/1/0/2/0"/>
       <record name="/1/1" javaclass="com.wm.util.Values">
@@ -296,6 +297,7 @@
         <value name="nodePathNew">2.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">6</number>
+        <value name="nodePathForDebug">1.1</value>
       </record>
       <record name="/1/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -314,6 +316,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">1.1.0</value>
       </record>
       <null name="/1/1/0/0"/>
       <record name="/2" javaclass="com.wm.util.Values">
